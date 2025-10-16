@@ -11,7 +11,7 @@ load_dotenv()
 class PolygonPipeline:
     """Pipeline for fetching stock data from Polygon.io API."""
 
-    def __init__(self, api_key: Optional[str] = None, data_path: str = "finanace_api/data"):
+    def __init__(self, api_key: Optional[str] = None, data_path: str = "data"):
         """Initialize the pipeline with API credentials and configuration."""
         self.base_url = "https://api.polygon.io"
         self.api_key = api_key or os.getenv("POLYGON_API_KEY")
