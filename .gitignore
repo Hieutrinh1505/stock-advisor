@@ -1,3 +1,6 @@
 *.env*
 *claude.md*
 data
+minio_data
+milvus/milvus_docs
+.zip
